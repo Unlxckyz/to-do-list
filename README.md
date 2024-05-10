@@ -21,15 +21,16 @@ Este é um projeto de lista de tarefas (To-Do List) construído com HTML, CSS e 
 1. **Clone ou faça download do repositório**:
    ```bash
    git clone <URL_DO_REPOSITORIO>
-2.**Abra o arquivo index.html no navegador para iniciar a aplicação.**
+1. **Abra o arquivo `index.html` no navegador** para iniciar a aplicação.
 
-3.Para adicionar uma nova tarefa, 
+2. **Para adicionar uma nova tarefa**:
+   - Digite no campo "Digite sua nova task".
+   - Clique no botão com o símbolo de adição.
+   - Um som será reproduzido para confirmar a adição bem-sucedida.
 
-Digite no campo "Digite sua nova task".
-Clique no botão com o símbolo de adição.
-Um som será reproduzido ao adicionar uma tarefa.
-4.Para remover uma tarefa:
-Clique no botão de exclusão ao lado da tarefa que deseja remover.
-Um som será reproduzido ao excluir uma tarefa.
-5.Erros ao adicionar uma tarefa:
-Se a tarefa já existir ou o campo estiver vazio, um som de erro será reproduzido e a borda do campo ficará vermelha como alerta.
+3. **Para remover uma tarefa**:
+   - Clique no botão de exclusão ao lado da tarefa que deseja remover.
+   - Um som será reproduzido para confirmar a exclusão.
+
+4. **Erros ao adicionar uma tarefa**:
+   - Se a tarefa já existir ou se o campo estiver vazio, um som de erro será reproduzido e a borda do campo ficará vermelha para indicar o erro.
