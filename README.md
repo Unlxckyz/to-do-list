@@ -22,7 +22,9 @@ Este é um projeto de lista de tarefas (To-Do List) construído com HTML, CSS e 
    ```bash
    git clone <URL_DO_REPOSITORIO>
 2.**Abra o arquivo index.html no navegador para iniciar a aplicação.**
+
 3.Para adicionar uma nova tarefa, 
+
 Digite no campo "Digite sua nova task".
 Clique no botão com o símbolo de adição.
 Um som será reproduzido ao adicionar uma tarefa.
