@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+#background{
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+}
+#background video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+#background::after{
+    content: '';
+    width: inherit;
+    height: inherit;
+    inset: 0;
+    position: fixed;
+    background:linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+
+}
+
+:root {
+    --green-dark: #0c4972;
+    --black: #000000;
+    --green-dark0: #005180;
+    --green-light: #80D0FF;
+    --white: #FFFFFF;
+    --red: #ee0000;
+    --red-dark: #680000;
+}
+h1{
+    color: var(--white);
+    
+}
+h1::first-letter{
+    color: var(--red-dark);
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: var(--green-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   
+
+}
+
+.content-add-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#input-new-task,
+#btn-new-task {
+    border: none;
+    font-size: 1.0rem;
+    outline: none;
+    padding: 1rem;
+
+}
+
+
+#input-new-task {
+    border-radius: 1rem;
+    width: 20rem;
+    letter-spacing: 0.3rem;
+    
+    color:  var(--white);
+    background-color: var(--black);
+}
+
+#btn-new-task {
+    background-color: var(--white);
+    color: var(--green-dark);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+#btn-new-task:hover {
+    transition: 0.5s all ease-in-out;
+    background-color: var(--red);
+}
+
+#to-do-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 1rem;
+
+
+}
+
+#to-do-list li{
+    list-style-type: none;
+    font-size: 1.0rem;
+    text-transform: capitalize;
+    letter-spacing: 0.3rem;
+    display: flex;
+    padding-inline: 1rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.content-body{
+    background-color: var(--white);
+    width: 82%;
+    border-radius: 1rem;
+    
+    
+}
+#btn-ok{
+    border: none;
+    background: none;
+    color: var(--red);
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+    
+}
+#btn-ok:hover{
+    transition: 1s;
+    transform: scale(1.5);
+    color: #2191db;
+
+   
+}
